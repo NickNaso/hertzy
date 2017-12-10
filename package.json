@@ -1,0 +1,22 @@
+{
+  "name": "herzy",
+  "version": "0.0.1",
+  "description": "Event bus channel",
+  "main": "index.js",
+  "keywords": [
+    
+  ],
+  "scripts": {
+    "test": "node node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickNaso/herzy.git"
+  },
+  "author": "Nicola Del Gobbo <nicoladelgobbo@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/NickNaso/herzy/issues"
+  },
+  "homepage": "https://github.com/NickNaso/herzy#readme"
+}
