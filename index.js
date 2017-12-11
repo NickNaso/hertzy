@@ -15,3 +15,5 @@
  * Contributors - initial API implementation:
  * Nicola Del Gobbo <nicoladelgobbo@gmail.com>
  ******************************************************************************/
+
+ module.exports = require('./lib/Herzy')
