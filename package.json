@@ -1,5 +1,5 @@
 {
-  "name": "herzy",
+  "name": "hertzy",
   "version": "0.0.1",
   "description": "Event bus channel",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NickNaso/herzy.git"
+    "url": "git+https://github.com/NickNaso/hertzy.git"
   },
   "author": "Nicola Del Gobbo <nicoladelgobbo@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/NickNaso/herzy/issues"
+    "url": "https://github.com/NickNaso/hertzy/issues"
   },
-  "homepage": "https://github.com/NickNaso/herzy#readme",
+  "homepage": "https://github.com/NickNaso/hertzy#readme",
   "devDependencies": {
     "jasmine": "^2.8.0"
   }
