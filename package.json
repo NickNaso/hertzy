@@ -3,9 +3,7 @@
   "version": "0.0.1",
   "description": "Event bus channel",
   "main": "index.js",
-  "keywords": [
-    
-  ],
+  "keywords": [],
   "scripts": {
     "test": "node node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json"
   },
@@ -18,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/NickNaso/herzy/issues"
   },
-  "homepage": "https://github.com/NickNaso/herzy#readme"
+  "homepage": "https://github.com/NickNaso/herzy#readme",
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  }
 }
