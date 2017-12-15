@@ -3,6 +3,7 @@
 const Hertzy = require('./')
 
 const usrFreq = Hertzy.tune('user')
+
 usrFreq.on('user:add', function (data) {
     console.log('NEW USER ADDED WITH FOLLOWING DATA:')
     console.log(data)
