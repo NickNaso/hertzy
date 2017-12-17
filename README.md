@@ -1,4 +1,4 @@
-# herzy
+# Herzy - Event bus channel
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/NickNaso/hertzy/master/hertzy.png"/>
