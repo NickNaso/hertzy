@@ -4,9 +4,6 @@
     <img src="https://raw.githubusercontent.com/NickNaso/hertzy/master/hertzy.png"/>
 </p>
 
-## Event bus channel
-
-
 
 
 ## This module is under development yet :-) 
