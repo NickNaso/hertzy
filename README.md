@@ -210,6 +210,11 @@ console.log(frequency.fq())
 
 #### emit(evt, [, ...args])
 
+The **emit()** method allows you to dispatch an event on a selected **frequency**.
+It takes as required parameter **evt**, that need to be a valid String and represents
+the name of your event. Others optional parameters will be passed to the listeners
+of the specified event.
+
 ```js
 
 'use strict'
@@ -228,9 +233,9 @@ frequency.emit('user:add', {
 
 ```
 
-
-
 #### on (evt, fn)
+
+The **on()** method allow you to listen 
 
 ```js
 
