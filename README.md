@@ -19,7 +19,10 @@
 
 ## Introduction
 
-``` // TODO ```
+Node.js includes an **[event system](https://nodejs.org/dist/latest/docs/api/events.html)**
+which is an implementation of the Observer pattern that is the most common used
+**event** pattern in Node.js application and for good reasons: it's incredibly
+simple and useful. 
 
 <a name="motivations"></a>
 
