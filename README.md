@@ -208,7 +208,69 @@ console.log(frequency.fq())
 ```
 
 
+#### emit(evt, [, ...args])
 
+```js
+
+'use strict'
+
+const const Hertzy = require('hertzy')
+
+// Get frequency to use
+const frequency = Hertzy.tune('user')
+
+// Emit 'user:add' event on 'user' frequency
+frequency.emit('user:add', {
+    username: 'NickNaso',
+    password: '********',
+    email: 'nicoladelgobbo@gmail.com'
+})
+
+```
+
+
+
+#### on (evt, fn)
+
+```js
+
+'use strict'
+
+const const Hertzy = require('hertzy')
+
+// Get frequency to use
+const frequency = Hertzy.tune('user')
+
+// Listen 'user:add' event on 'user' frequency
+frequency.on('user:add', function (data) {
+    // DO SOMETHING ...
+})
+
+```
+
+
+#### off (evt, fn)
+
+```js
+
+'use strict'
+
+const const Hertzy = require('hertzy')
+
+// Get frequency to use
+const frequency = Hertzy.tune('user')
+
+const handler = function (data) {
+    // DO SOMETHING ...
+}
+
+// Listen 'user:add' event on 'user' frequency
+frequency.on('user:add', handler)
+
+// Remove listener for 'user:add' event on 'user' frequency
+frequency.off('user:add', handler)
+
+```
 
 <a name="team"></a>
 
