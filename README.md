@@ -32,7 +32,14 @@ can communicate each other.
 
 ## Motivations
 
-``` // TODO ```
+Anyone who has used Node.js should be familiar with **[events](https://nodejs.org/dist/latest/docs/api/events.html)**.
+This module has the responsability to facilitate the communication between **objects**
+of your application.
+
+> Much of the Node.js core API modules are built aroud an idiomatic asynchronous
+> event-driven architecture in which certains kinds of objects (ccalled **emitter**)
+> periodically emit named events that cause Function objects ("listeners") to be called.
+
 
 <a name="install"></a>
 
