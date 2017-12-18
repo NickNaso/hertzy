@@ -186,6 +186,11 @@ const frequency = Hertzy.tune('user')
 
 #### How to use **Frequency**
 
+After you get the right **frequency** or bus channel you want, you can start to 
+emit and listen event with the methods exposed by **Frequency**
+
+
+
 
 <a name="team"></a>
 
