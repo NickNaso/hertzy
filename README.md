@@ -1,11 +1,68 @@
-# Herzy - Event bus channel
-
 <p align="center">
     <img src="https://raw.githubusercontent.com/NickNaso/hertzy/master/hertzy.png"/>
 </p>
 
+# Herzy - Event bus channel
+
+## Herzy provides additional messaging pattern for Node.js applications.
+
+* [Introduction](#introduction)
+* [Motivations](#motivations)
+* [Installation](#install)
+* [Usage](#usage)
+* [Team](#team)
+* [Acknowledgements](#acknowledgements)
+* [License](#license)
+
+<a name="introduction"></a>
+
+## Introduction
+
+``` // TODO ```
+
+<a name="motivations"></a>
+
+## Motivations
+
+``` // TODO ```
+
+<a name="install"></a>
+
+## Installation
+
+``` // TODO ```
+
+<a name="usage"></a>
+
+## Usage
 
 
-## This module is under development yet :-) 
-### Give me other time i work with :heart: for all of you
+``` // TODO ```
+
+
+## API
+
+``` // TODO ```
+
+<a name="team"></a>
+
+## The Team
+
+### Nicola Del Gobbo
+
+<https://github.com/NickNaso/>
+
+<https://www.npmjs.com/~nicknaso>
+
+<https://twitter.com/NickNaso>
+
+## Acknowledgements
+
+Thank you to all people that encourage me every day.
+
+<a name="license"></a>
+
+## License
+
+Licensed under [Apache license V2](./LICENSE)
 
