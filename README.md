@@ -130,7 +130,13 @@ usr.emit('user:add', {
 
 ## API
 
-``` // TODO ```
+## VERSION
+
+This is a String property that represent the version of **hertzly**
+
+### WARNING
+
+### tune (frequency)
 
 <a name="team"></a>
 
