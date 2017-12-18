@@ -235,7 +235,11 @@ frequency.emit('user:add', {
 
 #### on (evt, fn)
 
-The **on()** method allow you to listen 
+The **on()** method allows you to listen on event on the selected **frequency**.
+It takes as input two parameters **evt** and **fn** which represents the name of
+the event and the function handler you want execute when the event happen.
+Remenber **evt** and **fn** need to be a valid String and Function repsectively,
+otherwise you will get an error. 
 
 ```js
 
@@ -252,7 +256,6 @@ frequency.on('user:add', function (data) {
 })
 
 ```
-
 
 #### off (evt, fn)
 
