@@ -205,8 +205,8 @@ const frequency = Hertzy.tune('user')
 
 Thank you to all people that encourage me every day.
 
-Mantainers and creator of **[backbone.radio](https://github.com/marionettejs/backbone.radio)** 
-a module that has inspired my work on **hertzy**
+Mantainers and creators of **[backbone.radio](https://github.com/marionettejs/backbone.radio)** 
+a module that has inspired my work on **hertzy**.
 
 <a name="license"></a>
 
