@@ -63,7 +63,35 @@ that are subscribed to them.
 
 ## Installation
 
-``` // TODO ```
+If you want use **hertzy** you have to install it. There are two methods to do
+that:
+
+In your package.json add the following item:
+
+```json
+"hertzy": "version"
+```
+
+then digit:
+
+```console
+npm install
+```
+
+**Example**:
+
+```json
+"hertzy": "*" for the latest version
+"hertzy": "0.0.1" for the version 0.0.1
+```
+
+**OR**
+
+launch this command:
+
+```console
+npm install hertzy --save
+```
 
 <a name="usage"></a>
 
