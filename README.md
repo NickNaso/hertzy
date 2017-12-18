@@ -187,7 +187,25 @@ const frequency = Hertzy.tune('user')
 #### How to use **Frequency**
 
 After you get the right **frequency** or bus channel you want, you can start to 
-emit and listen event with the methods exposed by **Frequency**
+emit and listen event with the methods exposed by **Frequency** object.
+
+#### fq ()
+
+The **fq** method return the string representing the frequency's name
+
+```js
+
+'use strict'
+
+const const Hertzy = require('hertzy')
+
+// Get frequency to use
+const frequency = Hertzy.tune('user')
+
+console.log(frequency.fq())
+// It prints the String 'user'
+
+```
 
 
 
