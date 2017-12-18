@@ -97,13 +97,17 @@ npm install hertzy --save
 
 ## Usage
 
+To start using **hertzy** you have to import it in you project. After that you need
+to obtain a frequency or create new one. A **frequency** object is a channell where
+you can emit or listen for an event issued by other modules.
+
 ```js
 
 'use strict'
 
 const const Hertzy = require('hertzy')
 
-// Obtain or create ne frequency a channel where you can emit or listen for an
+// Obtain or create new frequency, a channel where you can emit or listen for an
 // event issued by other modules
 const usr = Hertzy.tune('user')
 
