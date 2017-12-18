@@ -134,6 +134,17 @@ usr.emit('user:add', {
 
 This is a String property that represent the version of **hertzly**
 
+```js
+
+'use strict'
+
+const const Hertzy = require('hertzy')
+
+// Get hertzly version and print it
+console.log(Hertzly.VERSION)
+
+```
+
 ### WARNING
 
 ### tune (frequency)
