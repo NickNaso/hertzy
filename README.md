@@ -132,7 +132,7 @@ usr.emit('user:add', {
 
 ## VERSION
 
-This is a String property that represent the version of **hertzly**
+This is a String property that represent the version of **hertzy**
 
 ```js
 
@@ -140,8 +140,8 @@ This is a String property that represent the version of **hertzly**
 
 const const Hertzy = require('hertzy')
 
-// Get hertzly version and print it
-console.log(Hertzly.VERSION)
+// Get hertzy version and print it
+console.log(Hertzy.VERSION)
 
 ```
 
@@ -151,7 +151,7 @@ This is a Boolean property. Setting it to ```true``` will cause Node.js print
 warning if you add more then **defaultMaxListeners** listeners on a single event
 (for more informations about that take a look here **[event and max listeners number](https://nodejs.org/dist/latest/docs/api/events.html#events_eventemitter_defaultmaxlisteners)**.
 
-Otherwise setting to ```false```, that is also the **default** value for hertzly 
+Otherwise setting to ```false```, that is also the **default** value for hertzy 
 the number of max listener will be dinamically updated based on your usage.
 
 ```js
@@ -160,13 +160,32 @@ the number of max listener will be dinamically updated based on your usage.
 
 const const Hertzy = require('hertzy')
 
-// Set hertzly warning value
-// Get hertzly warning value and print it
-console.log(Hertzly.WARNING = true)
+// Set hertzy warning value
+// Get hertzy warning value and print it
+console.log(Hertzy.WARNING = true)
 
 ```
 
 ### tune (frequency)
+
+The **tune** method return a frequency that conceptyally is a channel where you 
+can emit or listen for an event and its data. The **tune** method check if the
+parameter **frequency** is a valid String and create or return an instance of **Frequency**
+that you can use to intercept or dispatch the event using its methods.
+
+```js
+
+'use strict'
+
+const const Hertzy = require('hertzy')
+
+// Get frequency to use
+const frequency = Hertzy.tune('user')
+
+```
+
+#### How to use **Frequency**
+
 
 <a name="team"></a>
 
