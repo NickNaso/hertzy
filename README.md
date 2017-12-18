@@ -40,6 +40,24 @@ of your application.
 > event-driven architecture in which certains kinds of objects (ccalled **emitter**)
 > periodically emit named events that cause Function objects ("listeners") to be called.
 
+Sometimes you need to promote loose coupling system by ensuring that instead of 
+components (modules) referring to each other explicitly, their interaction is 
+handled through a central point. This can help to decouple the systems and improve
+the module reusability.
+
+In implementation terms Hertzy use the **mediator pattern** that is ideal for
+application level notifications such as the communication between different 
+subsystems that are themselves complex.
+
+The largest benefit of the mediator pattern is that it reduces the communication
+channels needed between objects or components in a system from **many to many**
+to just **many to one**.
+
+Both pattern **mediator** and **observer** promote loose coupling, however, the 
+mediator achieves this by having objects communicate strictly through it, while
+observer creates observable obects that publish events of interest of objects 
+that are subscribed to them.
+
 
 <a name="install"></a>
 
@@ -71,6 +89,8 @@ of your application.
 <https://www.npmjs.com/~nicknaso>
 
 <https://twitter.com/NickNaso>
+
+<a name="acknowledgements"></a>
 
 ## Acknowledgements
 
