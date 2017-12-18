@@ -147,6 +147,23 @@ console.log(Hertzly.VERSION)
 
 ### WARNING
 
+This is a Boolean property. Setting it to true will cause Node.js print warning if
+you add more then **defaultMaxListeners** listeners on a single event. Otherwise
+setting to false, that is also the **default** value for hertzly the number of max
+listener will be dinamically updated based on your usage.
+
+```js
+
+'use strict'
+
+const const Hertzy = require('hertzy')
+
+// Set hertzly warning value
+// Get hertzly warning value and print it
+console.log(Hertzly.WARNING = true)
+
+```
+
 ### tune (frequency)
 
 <a name="team"></a>
