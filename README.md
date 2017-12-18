@@ -149,7 +149,7 @@ console.log(Hertzly.VERSION)
 
 This is a Boolean property. Setting it to ```true``` will cause Node.js print 
 warning if you add more then **defaultMaxListeners** listeners on a single event
-(for more informations about that take a look here **[defaultMaxListeners](https://nodejs.org/dist/latest/docs/api/events.html#events_eventemitter_defaultmaxlisteners)**.
+(for more informations about that take a look here **[event and max listeners number](https://nodejs.org/dist/latest/docs/api/events.html#events_eventemitter_defaultmaxlisteners)**.
 
 Otherwise setting to ```false```, that is also the **default** value for hertzly 
 the number of max listener will be dinamically updated based on your usage.
