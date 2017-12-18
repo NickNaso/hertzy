@@ -20,9 +20,13 @@
 ## Introduction
 
 Node.js includes an **[event system](https://nodejs.org/dist/latest/docs/api/events.html)**
-which is an implementation of the Observer pattern that is the most common used
+which is an implementation of the **Observer** pattern that is the most common used
 **event** pattern in Node.js application and for good reasons: it's incredibly
 simple and useful. 
+
+**Herzy** adds additional messaging related features called **frequency** that 
+represents a communication bus through different parts (modules) of one application
+can communicate each other.
 
 <a name="motivations"></a>
 
