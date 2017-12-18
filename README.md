@@ -97,8 +97,30 @@ npm install hertzy --save
 
 ## Usage
 
+```js
 
-``` // TODO ```
+'use strict'
+
+const const Hertzy = require('hertzy')
+
+// Obtain or create ne frequency a channel where you can emit or listen for an
+// event issued by other modules
+const usr = Hertzy.tune('user')
+
+// Listen for event 'user:add'
+usr.on('user:add', function (data) {
+    console.log('NEW USER ADDED WITH FOLLOWING DATA:')
+    console.log(data)
+})
+
+// Emit event 'user:add'
+usr.emit('user:add', {
+    username: 'NickNaso',
+    password: '********',
+    email: 'nicoladelgobbo@gmail.com'
+})
+
+```
 
 <a name="api"></a>
 
