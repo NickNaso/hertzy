@@ -211,9 +211,9 @@ console.log(frequency.fq())
 #### emit(evt, [, ...args])
 
 The **emit()** method allows you to dispatch an event on a selected **frequency**.
-It takes as required parameter **evt**, that need to be a valid String and represents
-the name of your event. Others optional parameters will be passed to the listeners
-of the specified event.
+It takes as required parameter **evt**. Others optional parameters will be passed
+to the listeners of the specified event.
+Remenber **evt** need to be a valid String otherwise you will get an error.
 
 ```js
 
@@ -258,6 +258,13 @@ frequency.on('user:add', function (data) {
 ```
 
 #### off (evt, fn)
+
+The **off()** method allows you to remove listener on event on the selected 
+**frequency**.
+It takes as input two parameters **evt** and **fn** which represents the name of
+the event and the function handler you want execute when the event happen.
+Remenber **evt** and **fn** need to be a valid String and Function repsectively,
+otherwise you will get an error. 
 
 ```js
 
