@@ -1,9 +1,14 @@
 {
   "name": "hertzy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Event bus channel",
   "main": "index.js",
-  "keywords": [],
+  "keywords": [
+    "events",
+    "mediator",
+    "eventbus",
+    "decoupling"
+  ],
   "scripts": {
     "test": "node node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json"
   },
