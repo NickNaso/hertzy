@@ -270,7 +270,7 @@ otherwise you will get an error.
 
 'use strict'
 
-const const Hertzy = require('hertzy')
+const Hertzy = require('hertzy')
 
 // Get frequency to use
 const frequency = Hertzy.tune('user')
