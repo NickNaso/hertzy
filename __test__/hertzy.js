@@ -23,7 +23,6 @@ const pkg = require('../package.json')
 
 describe('When access to VERSION property', function () {
 
-    
     it("should return a string", function () {
         expect(Hertzy.VERSION).not.toBeNull()
         expect(Hertzy.VERSION).not.toBeUndefined()  
@@ -32,6 +31,30 @@ describe('When access to VERSION property', function () {
 
     it("should be equal to pkg.version", function () {
         expect(Hertzy.VERSION).toBe(pkg.version)
+    })
+    
+})
+
+describe('When access to WARNING property', function () {
+
+    it("should return a boolean", function () {
+        expect(Hertzy.WARNING).not.toBeNull()
+        expect(Hertzy.WARNING).not.toBeUndefined()  
+        expect(typeof Hertzy.WARNING).toBe('boolean')
+    })
+
+    it("should be equal to false", function () {
+        expect(Hertzy.WARNING).not.toBeTruthy()
+        expect(Hertzy.WARNING).toBeFalsy()
+    })
+
+    it("should be equal to true whan its value will be set to true", function () {
+        // Set WARNING to true
+        Hertzy.WARNING = true
+        expect(Hertzy.WARNING).toBeTruthy()
+        expect(Hertzy.WARNING).not.toBeFalsy()
+        // Set WARNING to false again
+        Hertzy.WARNING = false
     })
     
 })
