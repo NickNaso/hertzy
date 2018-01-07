@@ -18,16 +18,20 @@
 
 'use strict'
 
-describe('Test hertzy', function () {
+const Hertzy = require('../')
+const pkg = require('../package.json')
 
-    // Scaffold async test
-    it("Should ...", function (done) {
-        done()
+describe('When access to VERSION property', function () {
+
+    
+    it("should return a string", function () {
+        expect(Hertzy.VERSION).not.toBeNull()
+        expect(Hertzy.VERSION).not.toBeUndefined()  
+        expect(typeof Hertzy.VERSION).toBe('string')
     })
 
-    // Scaffold sync test
-    it("Should ...", function () {
-        
+    it("should be equal to pkg.version", function () {
+        expect(Hertzy.VERSION).toBe(pkg.version)
     })
     
 })
