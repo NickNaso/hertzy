@@ -71,10 +71,28 @@ describe('When call tune method with no name (valid string)', function () {
 describe('When call tune method with valid string it return a frequency', function () {
 
     it("should return a frequancy object", function () {
-        let fq = Hertzy.tune('user')
-        expect(fq).not.toBeNull()
-        expect(fq).not.toBeUndefined()
-        expect(typeof fq).toBe('object')
+        let frequency = Hertzy.tune('user')
+        expect(frequency).not.toBeNull()
+        expect(frequency).not.toBeUndefined()
+        expect(typeof frequency).toBe('object')
+    })
+})
+
+describe('When call fq() method of  property', function () {
+
+    beforeEach(function () {
+        this.fq = 'user'
+        this.frequency = Hertzy.tune(this.fq)
     })
 
+    it("should return a string", function () {
+        expect(this.frequency.fq()).not.toBeNull()
+        expect(this.frequency.fq()).not.toBeUndefined()  
+        expect(typeof this.frequency.fq()).toBe('string')
+    })
+
+    it("should be equal to this.fq ('user')", function () {
+        expect(this.frequency.fq()).toBe(this.fq)
+    })
+    
 })
