@@ -37,7 +37,7 @@ This module has the responsability to facilitate the communication between **obj
 of your application.
 
 > Much of the Node.js core API modules are built aroud an idiomatic asynchronous
-> event-driven architecture in which certains kinds of objects (ccalled **emitter**)
+> event-driven architecture in which certains kinds of objects (called **emitter**)
 > periodically emit named events that cause Function objects ("listeners") to be called.
 
 Sometimes you need to promote loose coupling system by ensuring that instead of 
