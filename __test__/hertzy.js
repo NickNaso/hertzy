@@ -96,3 +96,34 @@ describe('When call fq() method of  property', function () {
     })
     
 })
+
+describe('When emit an event on a frequency', function () {
+    let callbacks
+    beforeEach(function () {
+        this.frequency = Hertzy.tune('user')
+        const callbackOn = function callbackOn () {}
+        const callbackOff = function callbackOff () {}
+        callbacks = {
+            callbackOn,
+            callbackOff
+        }
+        this.callbackOn = callbackOn
+        this.callbackOff = callbackOff 
+        spyOn(callbacks, 'callbackOn')  
+        spyOn(callbacks, 'callbackOff')
+        this.frequency.on('user:add', callbacks.callbackOn)
+        this.frequency.on('user:delete', callbacks.callbackOff)
+        this.frequency.off('user:delete', callbacks.callbackOff)
+        this.frequency.emit('user:add')
+        this.frequency.emit('user:delete')
+    })
+
+    it("should trigger the callback on the specified frequency", function () {
+        expect(callbacks.callbackOn).toHaveBeenCalled()
+    })
+    
+    it("should trigger the callback on the specified frequency", function () {
+        expect(callbacks.callbackOff).not.toHaveBeenCalled()
+    })
+
+})
