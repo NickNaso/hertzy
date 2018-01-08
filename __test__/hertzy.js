@@ -58,3 +58,23 @@ describe('When access to WARNING property', function () {
     })
     
 })
+
+describe('When call tune method with no name (valid string)', function () {
+
+    it("should return an error", function () {
+        expect(function () { Hertzy.tune() })
+        .toThrow(new Error('Hertzy: frequency need to be a valid string'))
+    })
+
+})
+
+describe('When call tune method with valid string it return a frequency', function () {
+
+    it("should return a frequancy object", function () {
+        let fq = Hertzy.tune('user')
+        expect(fq).not.toBeNull()
+        expect(fq).not.toBeUndefined()
+        expect(typeof fq).toBe('object')
+    })
+
+})
