@@ -15,6 +15,8 @@ node_js:
 env:
 - NODE_ENV=TEST
   
-install: true
+install: 
+  - npm install -g jasmine
+  - npm install
 
 script: npm test
