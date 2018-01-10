@@ -11,6 +11,9 @@ node_js:
   - "7"
   - "8"
   - "9"
+
+env:
+- NODE_ENV=TEST
   
 install: true
 
