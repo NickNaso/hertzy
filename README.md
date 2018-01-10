@@ -5,7 +5,9 @@
 # Herzy - Event bus channel
 
 <div align="center">
+    
 [![Build Status](https://travis-ci.org/NickNaso/hertzy.svg?branch=master)](https://travis-ci.org/NickNaso/hertzy)
+
 </div>    
 
 ## Herzy provides additional messaging pattern for Node.js applications.
