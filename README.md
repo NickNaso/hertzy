@@ -4,6 +4,8 @@
 
 # Herzy - Event bus channel
 
+<br/>
+
 <div align="center">
     
 [![Build Status](https://travis-ci.org/NickNaso/hertzy.svg?branch=master)](https://travis-ci.org/NickNaso/hertzy)
