@@ -9,6 +9,8 @@
 <div align="center">
     
 [![Build Status](https://travis-ci.org/NickNaso/hertzy.svg?branch=master)](https://travis-ci.org/NickNaso/hertzy)
+[![Build status](https://ci.appveyor.com/api/projects/status/twdommvefkpw70dp/branch/master?svg=true)](https://ci.appveyor.com/project/NickNaso/hertzy/branch/master)
+
 
 </div>    
 
