@@ -22,6 +22,7 @@ install:
   - where node
   - ps: Install-Product node $env:nodejs_version $env:platform
   - 'npm install -g npm@latest'
+  - 'npm install -g jasmine'
 
 build: off
 
