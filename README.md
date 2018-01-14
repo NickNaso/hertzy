@@ -10,6 +10,8 @@
     
 [![Build Status](https://travis-ci.org/NickNaso/hertzy.svg?branch=master)](https://travis-ci.org/NickNaso/hertzy)
 [![Build status](https://ci.appveyor.com/api/projects/status/twdommvefkpw70dp/branch/master?svg=true)](https://ci.appveyor.com/project/NickNaso/hertzy/branch/master)
+[![NPM version](https://img.shields.io/npm/v/hertzy.svg?style=flat)](https://www.npmjs.com/package/hertzy)
+[![NPM downloads](https://img.shields.io/npm/dm/hertzy.svg?style=flat)](https://www.npmjs.com/package/hertzy)
 
 
 </div>    
