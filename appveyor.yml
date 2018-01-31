@@ -18,15 +18,14 @@ environment:
     platform: x86
 
 install:
-  - where npm
-  - where node
+  # - where npm
+  # - where node
   - ps: Install-Product node $env:nodejs_version $env:platform
-  - 'npm install -g npm@latest'
-  - 'npm install -g jasmine'
+  - 'npm install'
 
-build: off
+# build: off
 
 test_script:
   - node --version
   - npm --version
-  - npm test
+  - npm run test-appveyor
