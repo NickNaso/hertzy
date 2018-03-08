@@ -2,7 +2,7 @@
     <img src="https://raw.githubusercontent.com/NickNaso/hertzy/master/hertzy.png"/>
 </p>
 
-# Herzy - Event bus channel
+# Hertzy - Event bus channel
 
 <br/>
 
