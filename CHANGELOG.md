@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.7 / 2018-08-23
+
+* Added References to documentation
+
+* Fix typos
+
 ## 0.0.5 / 2018-01-31
 
 * Added CI integration
