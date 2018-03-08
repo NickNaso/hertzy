@@ -24,6 +24,7 @@
 * [Usage](#usage)
 * [API documentation](#api)
 * [Team](#team)
+* [References and articles](#reference_and_articles)
 * [Acknowledgements](#acknowledgements)
 * [License](#license)
 
@@ -298,6 +299,11 @@ frequency.on('user:add', handler)
 frequency.off('user:add', handler)
 
 ```
+<a name="references_and_articles"></a>
+
+## Rererences and articles
+
+**[Hertzy an event bus channel](https://blog.cloudboost.io/hertzy-an-event-bus-channel-469e033671be)**
 
 <a name="team"></a>
 
