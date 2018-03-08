@@ -24,7 +24,7 @@
 * [Usage](#usage)
 * [API documentation](#api)
 * [Team](#team)
-* [References and articles](#reference_and_articles)
+* [References and articles](#references_and_articles)
 * [Acknowledgements](#acknowledgements)
 * [License](#license)
 
