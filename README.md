@@ -317,6 +317,14 @@ frequency.off('user:add', handler)
 
 <https://twitter.com/NickNaso>
 
+### Mauro Doganieri
+
+<https://github.com/mauro-d>
+
+<https://www.npmjs.com/~mauro-d>
+
+<https://twitter.com/maurodoganieri>
+
 <a name="acknowledgements"></a>
 
 ## Acknowledgements
