@@ -4,7 +4,7 @@
 
 * When **Hertzy** need to update the max number of listeners that is possible to
 
-attach an event the `setMaxListeners` method of `EventEmitter` is never called. 
+attach an event the `setMaxListeners` method of `EventEmitter` is never called.
 
 ## 0.0.7 / 2018-03-23
 
