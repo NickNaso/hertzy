@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.13 / 2018-05-16
+
+Fixed event counter handler when the **off** method is called
+
 ## 0.0.11 / 2018-05-15
 
 * When **Hertzy** need to update the max number of listeners that is possible to 
