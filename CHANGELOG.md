@@ -2,7 +2,7 @@
 
 ## 0.0.13 / 2018-05-16
 
-Fixed event counter handler when the **off** method is called
+* Fixed event counter handler when the **off** method is called
 
 ## 0.0.11 / 2018-05-15
 
