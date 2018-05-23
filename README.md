@@ -22,6 +22,7 @@
 * [Installation](#install)
 * [Usage](#usage)
 * [API documentation](#api)
+* [Code of conduct](CODE_OF_CONDUCT.md)
 * [Team](#team)
 * [References and articles](#references_and_articles)
 * [Acknowledgements](#acknowledgements)
