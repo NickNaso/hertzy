@@ -1,6 +1,15 @@
 # Changelog
 
-## 0.0.7 / 2018-08-23
+## 0.0.13 / 2018-05-16
+
+Fixed event counter handler when the **off** method is called
+
+## 0.0.11 / 2018-05-15
+
+* When **Hertzy** need to update the max number of listeners that is possible to 
+attach an event the `setMaxListeners` method of `EventEmitter` is never called.
+
+## 0.0.7 / 2018-03-23
 
 * Added References to documentation
 
