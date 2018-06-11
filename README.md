@@ -38,8 +38,8 @@ used **event** pattern in Node.js application and for good reasons: it's
 incredibly simple and useful.
 
 **Hertzy** adds additional messaging related features called **frequency** that
-represents a communication bus through different parts (modules) of one
-application can communicate each other.
+represent a communication bus through which different parts (modules) of the
+application can communicate with each other.
 
 <a name="motivations"></a>
 
