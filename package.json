@@ -12,7 +12,8 @@
   "scripts": {
     "test": "node ./node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json",
     "test-travis": "node node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json",
-    "test-appveyor": "node ./node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json"
+    "test-appveyor": "node ./node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json",
+    "lint": "./node_modules/.bin/eslint index.js"
   },
   "engines": {
     "node": ">= 6.0.0"
