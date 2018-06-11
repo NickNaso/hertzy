@@ -63,7 +63,7 @@ describe('When call tune method with no name (valid string)', function () {
 
     it("should return an error", function () {
         expect(function () { Hertzy.tune() })
-        .toThrow(new Error('Hertzy: frequency need to be a valid string'))
+        .toThrow(new Error('Hertzy: frequency needs to be a valid string'))
     })
 
 })
