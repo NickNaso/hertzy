@@ -10,9 +10,10 @@
     "decoupling"
   ],
   "scripts": {
-    "test": "node ./node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json",
-    "test-travis": "node node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json",
-    "test-appveyor": "node ./node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json"
+    "test": "npm run lint && node ./node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json",
+    "test-travis": "npm run lint && node node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json",
+    "test-appveyor": "npm run lint && node ./node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json",
+    "lint": "./node_modules/.bin/eslint index.js ./lib"
   },
   "engines": {
     "node": ">= 6.0.0"
@@ -38,6 +39,9 @@
   },
   "homepage": "https://github.com/NickNaso/hertzy#readme",
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
     "jasmine": "^2.8.0"
   }
 }
