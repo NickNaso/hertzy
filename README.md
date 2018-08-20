@@ -328,6 +328,12 @@ frequency.off('user:add', handler)
 
 <https://twitter.com/maurodoganieri>
 
+### Pierluigi Iannarelli
+
+<https://github.com/Govee91>
+
+<https://twitter.com/pierluigiiannar>
+
 <a name="acknowledgements"></a>
 
 ## Acknowledgements
