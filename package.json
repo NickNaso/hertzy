@@ -1,6 +1,6 @@
 {
   "name": "hertzy",
-  "version": "0.0.13",
+  "version": "0.1.0",
   "description": "Event bus channel",
   "main": "index.js",
   "keywords": [
@@ -23,14 +23,17 @@
     "url": "git+https://github.com/NickNaso/hertzy.git"
   },
   "author": "Nicola Del Gobbo <nicoladelgobbo@gmail.com>",
-  "contributors": [
-    {
+  "contributors": [{
       "name": "Nicola Del Gobbo",
       "email": "nicoladelgobbo@gmail.com"
     },
     {
       "name": "Mauro Doganieri",
       "email": "mauro.doganieri@gmail.com"
+    },
+    {
+      "name": "Pierluigi Iannarelli",
+      "email": "pierluigi.iannarelli@gmail.com"
     }
   ],
   "license": "Apache-2.0",
