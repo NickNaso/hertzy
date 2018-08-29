@@ -23,7 +23,8 @@
     "url": "git+https://github.com/NickNaso/hertzy.git"
   },
   "author": "Nicola Del Gobbo <nicoladelgobbo@gmail.com>",
-  "contributors": [{
+  "contributors": [
+    {
       "name": "Nicola Del Gobbo",
       "email": "nicoladelgobbo@gmail.com"
     },
