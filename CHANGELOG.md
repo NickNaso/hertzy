@@ -2,10 +2,11 @@
 
 ## 0.1.0 / 2018-08-29
 
-* Added new logo and all correlated materials
-* Added guideline and concept about logo
-* Fixed some errors in documentation
-* Refactor of all internal functions and data structure
+* Added new logo and all correlated materials.
+* Added guideline and concept about logo.
+* Fixed some errors in documentation.
+* Refactor of all internal functions and data structure.
+* Added `.npmignore` to exclude `press` folder to be published.
 
 ## 0.0.13 / 2018-05-16
 
