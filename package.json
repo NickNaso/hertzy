@@ -46,6 +46,8 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.12.0",
-    "jasmine": "^2.8.0"
+    "jasmine": "^2.8.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
   }
 }
