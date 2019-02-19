@@ -1,9 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Hertzy</title>
+        <script src="hertzy.js"></script>
     </head>
     <body>
-        The content of Hertzy documentation  ...
+        <h1>Hertzy</h1>
+        <p>Test the usage of Hertzy in the Browser</p>
+        <script>
+            // Get hertzy version and print it
+            console.log(Hertzy.VERSION)
+            // Get frequency to use
+            const frequency = Hertzy.tune('user')
+            // Listen 'user:add' event on 'user' frequency
+            frequency.on('user:add', function (data) {
+                // DO SOMETHING ...
+                console.log('User added ...')
+            })
+             // Emit 'user:add' event on 'user' frequency
+             frequency.emit('user:add', {
+                username: 'NickNaso',
+                password: '********',
+                email: 'nicoladelgobbo@gmail.com'
+            })
+
+        </script>
     </body>
 </html>
