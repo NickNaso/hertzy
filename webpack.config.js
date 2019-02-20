@@ -4,8 +4,17 @@ const path = require('path')
 
 module.exports = {
     target: 'web',
-    mode: 'production',
+    // mode: 'production',
     entry: './index.js',
+    module: {
+        rules: [{
+            test: /\.js$/,
+            exclude: /(node_modules|bower_components)/,
+            use: {
+                loader: 'babel-loader'
+            }
+        }]
+    },
     output: {
         path: path.join(__dirname, 'dist'),
         filename: 'hertzy.js',
