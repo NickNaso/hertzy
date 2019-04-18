@@ -330,7 +330,7 @@ frequency.off('user:add', handler)
 
 ### Pierluigi Iannarelli
 
-<https://github.com/Govee91>
+<https://github.com/pierluigiiannarelli>
 
 <https://twitter.com/pierluigiiannar>
 
