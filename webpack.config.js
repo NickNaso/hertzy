@@ -1,11 +1,18 @@
 'use strict'
 
 const path = require('path')
+const Minify = require('uglifyjs-webpack-plugin')
 
 module.exports = {
     target: 'web',
-    // mode: 'production',
-    entry: './index.js',
+    mode: 'production',
+    entry: [
+        // '@babel/polyfill',
+        'core-js/features/set',
+        'core-js/features/map',
+        'core-js/features/symbol',
+        './index.js'
+    ],
     module: {
         rules: [{
             test: /\.js$/,
@@ -15,8 +22,15 @@ module.exports = {
             }
         }]
     },
+    optimization: {
+        minimizer: [
+            new Minify({
+                sourceMap: true,
+            })
+        ],
+    },
     output: {
-        path: path.join(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'dist'),
         filename: 'hertzy.js',
         sourceMapFilename: 'hertzy.map',
         library: 'Hertzy',
