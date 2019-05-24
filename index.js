@@ -16,6 +16,6 @@
  * Nicola Del Gobbo <nicoladelgobbo@gmail.com>
  ***************************************************************************** */
 
- import Hertzy from './lib/Hertzy'
+import Hertzy from './lib/Hertzy'
 
 export default Hertzy
