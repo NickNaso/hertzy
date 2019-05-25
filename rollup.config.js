@@ -34,7 +34,8 @@ export default [
             file: './umd/index.js',
             format: 'umd',
             name: 'Hertzy',
-            esModule: false
+            esModule: false,
+            sourcemap: true
         }
     },
     /* {
