@@ -67,7 +67,7 @@ Hertzy.tune('user')
 
 ### Pierluigi Iannarelli
 
-<https://github.com/Govee91>
+<https://github.com/pierluigiiannarelli>
 
 <https://twitter.com/pierluigiiannar>
 
