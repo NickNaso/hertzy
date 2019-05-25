@@ -19,7 +19,7 @@ This package provides two ways to import Hertzy client side:
 - using the **esm** build;
 - using the **umd** build;
 
-## ESM - ECMAScript Module
+### ESM - ECMAScript Module
 
 Import the *esm* bundle:
 
@@ -33,7 +33,7 @@ then use it:
 Hertzy.tune('user')
 ```
 
-## UMD - Universal Module Definition
+### UMD - Universal Module Definition
 
 Import the *umd* bundle:
 
