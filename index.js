@@ -16,6 +16,8 @@
  * Nicola Del Gobbo <nicoladelgobbo@gmail.com>
  ***************************************************************************** */
 
+'use strict'
+
 import Hertzy from './lib/Hertzy'
 
 export default Hertzy
