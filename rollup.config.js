@@ -1,24 +1,20 @@
-const babel = require('rollup-plugin-babel')
-const commonjs = require('rollup-plugin-commonjs')
-const nodeResolve = require('rollup-plugin-node-resolve')
-const nodeResolveBuiltins = require('rollup-plugin-node-builtins')
-const json = require('rollup-plugin-json')
-const { terser } = require('rollup-plugin-terser')
+import babel from 'rollup-plugin-babel'
+import commonjs from 'rollup-plugin-commonjs'
+import nodeResolve from 'rollup-plugin-node-resolve'
+import nodeResolveBuiltins from 'rollup-plugin-node-builtins'
+import json from 'rollup-plugin-json'
+import { terser } from 'rollup-plugin-terser'
 
-module.exports = [
+export default [
     {
         input: 'index.js',
         plugins: [
-            babel({
-                exclude: 'node_modules/**'
-            }),
             json(),
             nodeResolveBuiltins(),
-            nodeResolve(),
             commonjs()
         ],
         output: {
-            file: './dist/esm/index.js',
+            file: './esm/index.js',
             format: 'esm'
         }
     },
@@ -35,7 +31,7 @@ module.exports = [
             terser()
         ],
         output: {
-            file: './dist/umd/index.js',
+            file: './umd/index.js',
             format: 'umd',
             name: 'Hertzy',
             esModule: false
