@@ -14,7 +14,7 @@ export default [
             commonjs()
         ],
         output: {
-            file: './esm/index.js',
+            dir: 'esm',
             format: 'esm'
         }
     },
@@ -31,29 +31,36 @@ export default [
             terser()
         ],
         output: {
-            file: './umd/index.js',
+            dir: 'umd',
             format: 'umd',
             name: 'Hertzy',
             esModule: false,
             sourcemap: true
         }
     },
-    /* {
+    {
         input: 'index.js',
         plugins: [
-            babel({
-                exclude: 'node_modules/**'
-            }),
-            json(),
-            // nodeResolveBuiltins(),
-            // nodeResolve(),
-            // commonjs(),
-            // terser()
+            /* babel({
+                babelrc: false,
+                exclude: 'node_modules/**',
+                presets: [
+                    [
+                        '@babel/preset-env',
+                        {
+                            targets: {
+                                node: '6'
+                            }
+                        }
+                    ]
+                ],
+            }), */
+            json()
         ],
         output: {
-            file: './dist/cjs/index.js',
+            dir: 'cjs',
             format: 'cjs',
             esModule: false
         }
-    } */
+    }
 ]
