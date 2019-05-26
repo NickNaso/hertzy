@@ -1,5 +1,5 @@
 {
-  "name": "hertzy",
+  "name": "hertzy-browser",
   "version": "0.1.0",
   "description": "Event bus channel",
   "module": "esm/index.js",
@@ -39,7 +39,7 @@
   "bugs": {
     "url": "https://github.com/NickNaso/hertzy/issues"
   },
-  "homepage": "https://github.com/NickNaso/hertzy#readme",
+  "homepage": "https://github.com/NickNaso/hertzy/tree/browser#readme",
   "files": [
     "esm/*",
     "umd/*"
