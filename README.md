@@ -8,13 +8,13 @@
 
 This package brings Hertzy functionalities to **browsers**.
 
-**N.B.** If you are interested in using Hertzy in a **Node.js** environment or
-you want to take a look to the Hertzy documentation, you can refer to this
+**N.B.** If you are interested in using Hertzy in a *Node.js* environment or
+you want to take a look at the Hertzy documentation, please refer to this
 [package](https://github.com/NickNaso/hertzy).
 
 ## How to
 
-This package provides two ways to import Hertzy client side:
+You have two ways to import Hertzy client side:
 
 - using the **esm** build;
 - using the **umd** build;
