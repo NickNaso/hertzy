@@ -50,3 +50,8 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# build folders
+cjs
+esm
+umd
