@@ -2,7 +2,7 @@
 
 ## 0.1.0 / 2018-08-29
 
-* Added a logo and all the related materials.
+* Added a new logo and all the related materials.
 * Added the guidelines and the concept about the logo.
 * Fixed some errors in the documentation.
 * Refactored all the internal functions and the data structure.
