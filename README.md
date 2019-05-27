@@ -2,7 +2,7 @@
     <img src="https://raw.githubusercontent.com/NickNaso/hertzy/master/hertzy.png"/>
 </p>
 
-# Hertzy(browser) - Event bus channel
+# Hertzy - Event bus channel
 
 ## Description
 
@@ -12,7 +12,21 @@ This package brings Hertzy functionalities to **browsers**.
 you want to take a look at the Hertzy documentation, please refer to this
 [package](https://github.com/NickNaso/hertzy).
 
-## How to
+## Installation
+
+Launch the following command to get the latest version:
+
+```sh
+npm i hertzy@browser
+```
+
+Instead, if you want a specific version, run:
+
+```sh
+npm i hertzy@0.1.0-browser
+```
+
+## Usage
 
 You have two ways to import Hertzy client side:
 
@@ -41,7 +55,7 @@ Import the *umd* bundle:
 <script src="./hertzy/umd"></script>
 ```
 
-then, you can use it via the exported variable *Hertzy*:
+then, you can use it via the exported variable `Hertzy`:
 
 ```javascript
 Hertzy.tune('user')
