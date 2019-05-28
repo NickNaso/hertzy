@@ -7,7 +7,7 @@
 <br/>
 
 <div align="center">
-    
+
 [![Build Status](https://travis-ci.org/NickNaso/hertzy.svg?branch=master)](https://travis-ci.org/NickNaso/hertzy)
 [![Build status](https://ci.appveyor.com/api/projects/status/twdommvefkpw70dp/branch/master?svg=true)](https://ci.appveyor.com/project/NickNaso/hertzy/branch/master)
 [![NPM version](https://img.shields.io/npm/v/hertzy.svg?style=flat)](https://www.npmjs.com/package/hertzy)
@@ -21,6 +21,7 @@
 * [Motivations](#motivations)
 * [Installation](#install)
 * [Usage](#usage)
+* [Hertzy for browser](#hertzy_for_browser)
 * [API documentation](#api)
 * [Code of conduct](CODE_OF_CONDUCT.md)
 * [Team](#team)
@@ -114,7 +115,6 @@ need to obtain a frequency or create a new one. A **frequency** object is a
 channel where you can emit or listen for an event issued by other modules.
 
 ```js
-
 'use strict'
 
 const Hertzy = require('hertzy')
@@ -135,26 +135,29 @@ usr.emit('user:add', {
     password: '********',
     email: 'nicoladelgobbo@gmail.com'
 })
-
 ```
+
+<a name="hertzy_for_browser"></a>
+
+## Hertzy for browser
+
+To use Hertzy in the browser, please refer to this specific [version](https://github.com/NickNaso/hertzy/tree/browser).
 
 <a name="api"></a>
 
 ## API
 
-## VERSION
+### VERSION
 
 This is a String property that represents the version of **hertzy**
 
 ```js
-
 'use strict'
 
 const Hertzy = require('hertzy')
 
 // Get hertzy version and print it
 console.log(Hertzy.VERSION)
-
 ```
 
 ### WARNING
@@ -168,7 +171,6 @@ hertzy, the number of max listeners will be dynamically updated based on your
 usage.
 
 ```js
-
 'use strict'
 
 const Hertzy = require('hertzy')
@@ -176,7 +178,6 @@ const Hertzy = require('hertzy')
 // Set hertzy warning value
 // Get hertzy warning value and print it
 console.log(Hertzy.WARNING = true)
-
 ```
 
 ### tune (frequency)
@@ -188,14 +189,12 @@ parameter **frequency** is a valid String and creates or returns an instance of
 methods.
 
 ```js
-
 'use strict'
 
 const Hertzy = require('hertzy')
 
 // Get frequency to use
 const frequency = Hertzy.tune('user')
-
 ```
 
 #### How to use **Frequency**
@@ -209,7 +208,6 @@ object.
 The **fq** method returns the string representing the frequency's name
 
 ```js
-
 'use strict'
 
 const Hertzy = require('hertzy')
@@ -219,7 +217,6 @@ const frequency = Hertzy.tune('user')
 
 console.log(frequency.fq())
 // It prints the String 'user'
-
 ```
 
 #### emit(evt, [, ...args])
@@ -231,7 +228,6 @@ passed to the listeners of the specified event.
 Remember, **evt** needs to be a valid String otherwise you will get an error.
 
 ```js
-
 'use strict'
 
 const Hertzy = require('hertzy')
@@ -245,7 +241,6 @@ frequency.emit('user:add', {
     password: '********',
     email: 'nicoladelgobbo@gmail.com'
 })
-
 ```
 
 #### on (evt, fn)
@@ -258,7 +253,6 @@ Remember, **evt** and **fn** need to be a valid String and Function
 respectively, otherwise you will get an error.
 
 ```js
-
 'use strict'
 
 const Hertzy = require('hertzy')
@@ -270,7 +264,6 @@ const frequency = Hertzy.tune('user')
 frequency.on('user:add', function (data) {
     // DO SOMETHING ...
 })
-
 ```
 
 #### off (evt, fn)
@@ -283,7 +276,6 @@ Remember, **evt** and **fn** need to be a valid String and Function
 respectively, otherwise you will get an error.
 
 ```js
-
 'use strict'
 
 const Hertzy = require('hertzy')
@@ -300,8 +292,8 @@ frequency.on('user:add', handler)
 
 // Remove listener for 'user:add' event on 'user' frequency
 frequency.off('user:add', handler)
-
 ```
+
 <a name="references_and_articles"></a>
 
 ## Rererences and articles
