@@ -6,7 +6,7 @@
 
 ## Description
 
-This package brings Hertzy functionalities to **browsers**.
+This version of the package brings Hertzy functionalities to **browsers**.
 
 **N.B.** If you are interested in using Hertzy in a *Node.js* environment or
 you want to take a look at the Hertzy documentation, please refer to this
