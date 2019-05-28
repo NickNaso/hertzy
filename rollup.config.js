@@ -41,20 +41,6 @@ export default [
     {
         input: 'index.js',
         plugins: [
-            /* babel({
-                babelrc: false,
-                exclude: 'node_modules/**',
-                presets: [
-                    [
-                        '@babel/preset-env',
-                        {
-                            targets: {
-                                node: '6'
-                            }
-                        }
-                    ]
-                ],
-            }), */
             json()
         ],
         output: {
