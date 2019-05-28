@@ -34,7 +34,7 @@ called.
 
 * Updated the documentation.
 
-* Added unit tests to achieve basic coverage.
+* Added unit tests to improve basic coverage.
 
 * Fixed a reference error in ```updateListeners``` function.
 
