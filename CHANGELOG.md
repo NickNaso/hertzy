@@ -36,9 +36,9 @@ called.
 
 * Added unit tests to improve basic coverage.
 
-* Fixed a reference error in ```updateListeners``` function.
+* Fixed a reference error in `updateListeners` function.
 
-* Fixed a *TypeError* in ```off``` method.
+* Fixed a *TypeError* in `off` method.
 
 ## 0.0.1 / 2017-12-17
 
