@@ -10,7 +10,7 @@ This package brings Hertzy functionalities to **browsers**.
 
 **N.B.** If you are interested in using Hertzy in a *Node.js* environment or
 you want to take a look at the Hertzy documentation, please refer to this
-[package](https://github.com/NickNaso/hertzy).
+[version](https://github.com/NickNaso/hertzy).
 
 ## Installation
 
