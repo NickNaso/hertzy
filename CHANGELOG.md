@@ -2,45 +2,44 @@
 
 ## 0.1.0 / 2018-08-29
 
-* Added new logo and all correlated materials.
-* Added guideline and concept about logo.
-* Fixed some errors in documentation.
-* Refactor of all internal functions and data structure.
-* Added `.npmignore` to exclude `press` folder to be published.
+* Added a new logo and all the related materials.
+* Added the guidelines and the concept about the logo.
+* Fixed some errors in the documentation.
+* Refactored all the internal functions and the data structure.
+* Added `.npmignore` to exclude the `press` folder to be published.
 
 ## 0.0.13 / 2018-05-16
 
-* Fixed event counter handler when the **off** method is called
+* Fixed the event counter handler when the `off` method is called.
 
 ## 0.0.11 / 2018-05-15
 
-* When **Hertzy** need to update the max number of listeners that is possible to 
-attach an event the `setMaxListeners` method of `EventEmitter` is never called.
+* When it's needed to update the max number of listeners that is possible to
+attach to an event, the `setMaxListeners` method of `EventEmitter` is never
+called.
 
 ## 0.0.7 / 2018-03-23
 
-* Added References to documentation
+* Added references to the documentation.
 
-* Fix typos
+* Fixed typos.
 
 ## 0.0.5 / 2018-01-31
 
-* Added CI integration
+* Added CI integration.
 
-* Fix minor issues
+* Fixed minor issues.
 
 ## 0.0.3 / 2018-01-08
 
-* Fix in documentation of **`hertzy`**.
+* Updated the documentation.
 
-* Added unit tests to arise basic coverage.
+* Added unit tests to improve basic coverage.
 
-* Fixed typos on documentation.
+* Fixed a reference error in `updateListeners` function.
 
-* Fixed reference error on ```updateListeners``` function.
-
-* Fixed typerror on ```off``` method.
+* Fixed a *TypeError* in `off` method.
 
 ## 0.0.1 / 2017-12-17
 
-* Initial version of **`hertzy`** event bus channel.
+* Initial version of Hertzy - Event bus channel.
