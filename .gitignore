@@ -53,5 +53,3 @@ typings/
 
 # build folders
 cjs
-esm
-umd
