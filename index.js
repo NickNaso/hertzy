@@ -16,4 +16,8 @@
  * Nicola Del Gobbo <nicoladelgobbo@gmail.com>
  ***************************************************************************** */
 
-module.exports = require('./lib/Hertzy')
+'use strict'
+
+import Hertzy from './lib/Hertzy'
+
+export default Hertzy

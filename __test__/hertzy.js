@@ -18,28 +18,28 @@
 
 'use strict'
 
-const Hertzy = require('../')
+const Hertzy = require('../cjs')
 const pkg = require('../package.json')
 
 describe('When access to VERSION property', function () {
 
     it("should return a string", function () {
         expect(Hertzy.VERSION).not.toBeNull()
-        expect(Hertzy.VERSION).not.toBeUndefined()  
+        expect(Hertzy.VERSION).not.toBeUndefined()
         expect(typeof Hertzy.VERSION).toBe('string')
     })
 
     it("should be equal to pkg.version", function () {
         expect(Hertzy.VERSION).toBe(pkg.version)
     })
-    
+
 })
 
 describe('When access to WARNING property', function () {
 
     it("should return a boolean", function () {
         expect(Hertzy.WARNING).not.toBeNull()
-        expect(Hertzy.WARNING).not.toBeUndefined()  
+        expect(Hertzy.WARNING).not.toBeUndefined()
         expect(typeof Hertzy.WARNING).toBe('boolean')
     })
 
@@ -56,14 +56,14 @@ describe('When access to WARNING property', function () {
         // Set WARNING to false again
         Hertzy.WARNING = false
     })
-    
+
 })
 
 describe('When call tune method with no name (valid string)', function () {
 
     it("should return an error", function () {
         expect(function () { Hertzy.tune() })
-        .toThrow(new Error('Hertzy: frequency needs to be a valid string'))
+            .toThrow(new Error('Hertzy: frequency needs to be a valid string'))
     })
 
 })
@@ -87,29 +87,29 @@ describe('When call fq() method of  property', function () {
 
     it("should return a string", function () {
         expect(this.frequency.fq()).not.toBeNull()
-        expect(this.frequency.fq()).not.toBeUndefined()  
+        expect(this.frequency.fq()).not.toBeUndefined()
         expect(typeof this.frequency.fq()).toBe('string')
     })
 
     it("should be equal to this.fq ('user')", function () {
         expect(this.frequency.fq()).toBe(this.fq)
     })
-    
+
 })
 
 describe('When emit an event on a frequency', function () {
     let callbacks
     beforeEach(function () {
         this.frequency = Hertzy.tune('user')
-        const callbackOn = function callbackOn () {}
-        const callbackOff = function callbackOff () {}
+        const callbackOn = function callbackOn() { }
+        const callbackOff = function callbackOff() { }
         callbacks = {
             callbackOn,
             callbackOff
         }
         this.callbackOn = callbackOn
-        this.callbackOff = callbackOff 
-        spyOn(callbacks, 'callbackOn')  
+        this.callbackOff = callbackOff
+        spyOn(callbacks, 'callbackOn')
         spyOn(callbacks, 'callbackOff')
         this.frequency.on('user:add', callbacks.callbackOn)
         this.frequency.on('user:delete', callbacks.callbackOff)
@@ -121,7 +121,7 @@ describe('When emit an event on a frequency', function () {
     it("should trigger the callback on the specified frequency", function () {
         expect(callbacks.callbackOn).toHaveBeenCalled()
     })
-    
+
     it("should trigger the callback on the specified frequency", function () {
         expect(callbacks.callbackOff).not.toHaveBeenCalled()
     })
