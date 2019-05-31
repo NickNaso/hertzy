@@ -1,6 +1,6 @@
 {
   "name": "hertzy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Event bus channel",
   "main": "index.js",
   "keywords": [
