@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 / 2019-05-31
+
+* Added reference to browser version.
+
 ## 0.1.0 / 2018-08-29
 
 * Added a new logo and all the related materials.
