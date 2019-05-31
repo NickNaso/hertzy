@@ -629,7 +629,7 @@ function makeFrequency(frequency, frequencies) {
     return Frequency
 }
 
-var version = "0.1.0-browser";
+var version = "0.1.2-browser";
 
 /** *****************************************************************************
  * Copyright (c) Nicola Del Gobbo
