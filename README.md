@@ -23,7 +23,7 @@ npm i hertzy@browser
 Instead, if you want a specific version, run:
 
 ```sh
-npm i hertzy@0.1.1-browser
+npm i hertzy@0.1.2-browser
 ```
 
 ## Usage
